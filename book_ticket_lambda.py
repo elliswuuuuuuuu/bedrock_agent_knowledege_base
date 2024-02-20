@@ -195,7 +195,7 @@ def getFlightInformation(event):
 
     departure_city = get_named_parameter(event, 'departure_city')
     arrival_city = get_named_parameter(event, 'arrival_city')
-    departure_data = get_named_parameter(event, 'departure_data')
+    departure_date = get_named_parameter(event, 'departure_date')
     
     data = flight1
 
@@ -203,7 +203,7 @@ def getFlightInformation(event):
                 "input_args": {
                     "departure_city": departure_city,
                     "arrival_city": arrival_city,
-                    "departure_data": departure_data
+                    "departure_data": departure_date
                 },
                 "status": "success",
                 "results": {

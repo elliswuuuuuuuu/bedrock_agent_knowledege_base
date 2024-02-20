@@ -32,9 +32,9 @@
             }
           },
           {
-            "name": "departure_data",
+            "name": "departure_date",
             "in": "query",
-            "description": "departure data for flight",
+            "description": "departure date for flight",
             "required": true,
             "schema": {
               "type": "string"
